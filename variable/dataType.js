@@ -1,0 +1,15 @@
+/* data type can be determined by using functions like typeof()
+
+DATA TYPES
+BIG INT -USED TO STORE VERY LARGE VALUES 
+NUMBER=2^53
+STRING=" "
+BOOLEAN=TRUE/FALSE
+UNDEFINED
+SYMBOL=UNIQUE;
+
+*/
+
+console.log(typeof null);
+/* THIS IS ONE IMPORTANT THING TO NOTE THAT THE TYPE OF THE NULL IS NOT UNDEFINED BUT IT IS OBJECT, MANY CONSIDER IT AS
+A MISTAKE IN THE LAMGUAGE AS THE typeof(undefined) returns undefined only.*/
