@@ -30,7 +30,10 @@ const course={
     teacher:"hitesh choudary",
     student:"ritvik the smart boy"
 }
-//course.coursename this is the correct way to call an object but there is anothe syntax
+//course.coursename this is the correct way to call an object but there is another syntax
 //const{ the value u want to extract}=kahan se extract krni hai
 const{teacher:teacher}=course//destructuring the object and array can be done same.
+const{xyz}=course
 console.log(teacher );
+console.log(course.coursename) ;//hence now we can directly call the variable
+console.log(xyz);//if you put something that has not been assigned, it will show undefined
