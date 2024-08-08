@@ -1,3 +1,7 @@
+//difference between arrow function is super important
+//the arrow function cannot make use of this keyword or take arguments in the function whereas the normal function can make use of this keyword and take arguments in the function but is used as the syntax of the function is shorter than normal function
+
+
 let details={
     username:"ritvik",
     age:19,
@@ -25,6 +29,6 @@ console.log(numbers(5,6));
 //if you wrap it in curly braces then you need to use return, used very much in react.
 
 const numbers1=(num2,num3) => (num2+num3)//when you use paranthesis you do not need to use return keyword
-//it is also called imp-licit return
+//it is also called implicit return
     console.log(this);//this will show empty as this does not work in arrow functions
 console.log(numbers1(5,6));
