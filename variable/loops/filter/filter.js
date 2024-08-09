@@ -12,3 +12,13 @@ const result1=arr2.filter((item)=>{
         return item;
     
 })
+
+const num=[1,2,3,4,5,6,7]
+const reusult=num.map((item)=>item*10).map((item)=>item+1)//the value of item gets multiplied by 10 then gets updated for the next itme hence before starting it becomes 10 and then 11
+
+//this is called chaining where u can nest one method in another like a map inside a map and a filter inside of those.
+console.log(reusult);
+
+const num2=[1,2,3,4,5,6,7,88,99]
+const result2=num2.map((item)=>item*10).map((item)=>item+1).filter((item)=> item>80)//you can apply as many methods for chaining as you want.
+console.log(result2)
