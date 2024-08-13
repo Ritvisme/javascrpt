@@ -3,3 +3,8 @@
 
 //element.addEventListener(event, function, useCapture);
 //the demo of the event listener is done in the html file 
+
+//type, timestamp, defaultPrevented
+// target, toElement, scelement, currentTarget,
+// clientx, clienty, screenx, screenY
+// altkey, ctrlkey, shiftkey, keyCode
