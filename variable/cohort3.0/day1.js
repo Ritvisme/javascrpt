@@ -10,3 +10,11 @@ console.log(ans);
 let ans1=sum(parseInt('15'),parseInt('6'))
 console.log(ans1);
 
+
+{ let ans4=0;
+    for(i=0;i<=10;i++)
+    {ans4+=i;}
+  console.log(ans4);
+    
+}
+

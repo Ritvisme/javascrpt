@@ -9,6 +9,9 @@
 
 //javascript is a single threaded language, which means it can only execute one thing at a time
 
+//SINGLE THREADED IS ALSO KNOWN AS SYNCHRONOUS EXECUTION
+
+
 //it can be made multi threaded by using web workers
 
 //single threaded it can only use one core of the CPU at a time and executes only one task at a time no matter how many tasks ur trying to execute at once
