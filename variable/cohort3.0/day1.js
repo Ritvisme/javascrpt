@@ -9,3 +9,4 @@ console.log(ans);
 
 let ans1=sum(parseInt('15'),parseInt('6'))
 console.log(ans1);
+
