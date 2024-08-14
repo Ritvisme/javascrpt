@@ -1,6 +1,6 @@
 class Rectangle{
-    constructor(width, height){
-        this.width = width;
+    constructor(width, height){//constructor creates new object that can take in parameters
+        this.width = width;//this ka use krke the width and height got attached to the rect object hence it is defined as this.width and this.height
         this.height = height;
     }
     area(){
